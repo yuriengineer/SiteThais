@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="caixa">       
+          <h1><img class="logotipo" src="imagens/marca.png" alt="Logotipo Thais"></h1>       
+        </div>   
+    
+    </header>  
+
+<main>
+    <form class="formulario">
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                           
+        <label for="Mensagem">Mensagem</label>
+        <textarea id="Mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+
+        <fieldset>
+            <legend class="paragrafo-contato">Como prefere o contato?</legend>
+
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+            
+        </fieldset>
+      
+        <fieldset>
+            <legend class="paragrafo-atend">Qual horário prefere ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                </select>
+        </fieldset>
+
+
+        <input class="check" type="submit" value="Enviar Formulário">
+
+    </form>
+
+
+</main>
+
+    <footer>
+        <img class="rodape" src="imagens/submarca3.png" alt="Copyright">
+        <p class="textorodape">&copy; Copyright Thais Dias Cotrim Advocacia - 2022</p>
+    </footer>
+</body>
+</html>
